@@ -1,0 +1,68 @@
+
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-size:16px;
+    font-family: Karla;
+    font-weight: 400;
+}
+
+
+
+.card-container{
+    width:40%;
+    margin:auto;
+    margin-top:15%;
+    background-color:white;
+}
+.card-container ul { padding: 0; list-style-type: none; list-style: none;}
+.card-container .top ul{ color:hsl(218, 22%, 67%);  line-height:20px;}
+.card-container .top h2{color:hsl(179, 75%, 43%); padding-top:5%;}
+.card-container .top h3{color:hsl(71, 73%, 54%);}
+.card-container .top{ margin-left:5%;}
+.half-width{ width:50%;}
+
+
+.horizontal-container{
+    display:flex;
+    flex:row;
+}
+
+.horizontal-container .half-width.left h3{ font-size:30px;}
+
+.horizontal-container .half-width.left h3 span{
+    margin-left:5px;
+    font-size:15px;
+    color:hsl(204, 43%, 93%);
+}
+
+
+.horizontal-container .btn{
+    background-color:hsl(71, 73%, 54%);
+    color:white;
+    display:block;
+    width:75;
+    margin:auto;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:20px;
+    border-radius:5px;
+}
+
+div.half-width.left{
+    background-color:hsl(179, 62%, 43%);
+    color:white;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.half-width.right{
+    background-color: hsl(179, 75%, 43%);
+    color:hsl(204, 43%, 93%);
+        padding-left:5%;
+        padding-right:5%;
+    line-height:25px;
+}
+
+.half-width.right h2{ color:white;}
+    /*   font-weight:700 */
